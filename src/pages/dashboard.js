@@ -1,4 +1,4 @@
-import Sidebar from "../components/sidebar";
+import Sidebar from "../components/sidebar/sidebar";
 import Feed from "../components/feed";
 import Footer from "../components/footer";
 
@@ -14,6 +14,7 @@ export default function Dashboard() {
       <div className="content__wrapper">
         <Feed />
         <Sidebar />
+
         <Footer />
       </div>
     </div>
