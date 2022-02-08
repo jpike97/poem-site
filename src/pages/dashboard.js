@@ -14,7 +14,6 @@ export default function Dashboard() {
       <div className="content__wrapper">
         <Feed />
         <Sidebar />
-
         <Footer />
       </div>
     </div>
