@@ -66,7 +66,7 @@ export default function Login() {
       <div className="login__signup">
         <p>
           Don't have an account? {""}
-          <Link to={ROUTES.LOGIN}>Sign up!</Link>
+          <Link to={ROUTES.SIGN_UP}>Sign up!</Link>
         </p>
       </div>
     </div>
