@@ -13,7 +13,7 @@ export default function Feed() {
         <>
           <h1>data loaded</h1>
           {unlikedHaikus.map((haiku, i) => (
-            <li key={i}>{haiku.haikuText}</li>
+            <div key={i}><Haiku haiku={haiku} /></div>
           ))}
         </>
       ) : (
