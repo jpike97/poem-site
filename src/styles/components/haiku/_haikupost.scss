@@ -1,0 +1,10 @@
+.post__wrapper {
+  .post {
+    &__input {
+      display: none;
+      &.active {
+        display: block;
+      }
+    }
+  }
+}

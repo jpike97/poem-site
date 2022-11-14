@@ -4,6 +4,7 @@ import FirebaseContext from "../context/firebase";
 import UserContext from "../context/user";
 import * as ROUTES from "../constants/routes";
 import { RemoveCircleOutlineSharp } from "@material-ui/icons";
+import PostBtn from "./haiku/postBtn";
 
 //todo: user profile photos. think about that. gravatar?
 
@@ -53,6 +54,9 @@ export default function Footer() {
               </Link>
             </>
           )}
+        </div>
+        <div className="footer__post">
+            <PostBtn />
         </div>
       </div>
     </footer>

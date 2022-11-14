@@ -11,6 +11,9 @@ export default function Haiku(props) {
   }
   return <div className="haiku__wrapper">
           {haiku.haikuText}
+          <div className="haiku__comments">
+
+          </div>
           <button onClick={() => handleHaikuLike(haiku.haikuId)}>Like Haiku</button>
           <button onClick={() => handleHaikuComment(haiku.haikuId)}>Comment on Haiku</button>
         </div>;
